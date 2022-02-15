@@ -11,7 +11,7 @@ import BeachAccessRounded from "@material-ui/icons/BeachAccessRounded";
 import CallRounded from "@material-ui/icons/CallRounded";
 import LocalBarRounded from "@material-ui/icons/LocalBarRounded";
 import FavoriteTwoToneIcon from "@material-ui/icons/FavoriteTwoTone";
-import ArticleOutlinedIcon from '@material-ui/icons/ArticleOutlined';
+import SearchRounded from "@material-ui/icons/SearchRounded";
 import DateRangeRounded from "@material-ui/icons/DateRangeRounded";
 import EmojiEmotionsRounded from "@material-ui/icons/EmojiEmotionsRounded";
 import CakeRounded from "@material-ui/icons/CakeRounded";
@@ -208,7 +208,7 @@ function App() {
             <FavoriteTwoToneIcon/>
           </IconButton>
           <IconButton className={"ibtn"} onClick={()=> setCon(true)} color="secondary">
-            <ArticleOutlinedIcon/>
+            <SearchRounded/>
           </IconButton>
           <Popup trigger={contrato} setTrigger={setCon}>
             <img className="monga" src={require('./images/contratito2.jpeg').default} height={150} width={120} />
