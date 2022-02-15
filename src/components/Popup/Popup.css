@@ -1,0 +1,33 @@
+.popup {
+    position: fixed;
+    width: 170%; /* 100%*/
+    height: 100vh;
+    top: 0;
+    left: -5%; /*0*/
+    background-position: 0%, -50%; /*antes no habia*/
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: #FFF;
+}
+
+.popup-inner .close-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.popup-inner .monga {
+    position: absolute;
+    border-radius: 8px;
+    top: 60px;
+    right: 30px;
+}
